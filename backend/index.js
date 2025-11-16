@@ -766,6 +766,8 @@ app.post("/movieSwap", (req, res) => {
 });
 
 // For local usage
-app.listen(port, () => {
-  console.log(`QuickShow backend running on ${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`QuickShow backend running on ${port}`);
+// });
+module.exports = app;
+
