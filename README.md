@@ -1,10 +1,16 @@
 # 🎬 QuickShow – Online Movie Booking System
 
-QuickShow is a full-stack web application for booking movie tickets online. Users can browse movies, check showtimes, select seats in real-time, and book tickets seamlessly. The system also includes an admin panel for managing movies, shows, and bookings. This project is divided into two modules: frontend (React.js) and backend (Node.js + Express + MySQL).
+QuickShow is a full-stack web application for booking movie tickets online. Users can browse movies, check showtimes, select seats in real-time, and book tickets seamlessly. The system also includes an admin panel for managing movies, shows, and bookings.
+
+This project is divided into two modules:
+- Frontend (React.js)
+- Backend (Node.js + Express + MySQL)
+
+---
 
 ## 🚀 Features
 
-### User Features
+### 👤 User Features
 - Browse Now Showing & Upcoming Movies
 - View detailed movie information (rating, duration, genre, cast)
 - Filter movies by genre and theatre
@@ -14,7 +20,7 @@ QuickShow is a full-stack web application for booking movie tickets online. User
 - Book movie tickets
 - View booking history & past purchases
 
-### Admin Features
+### 🛠️ Admin Features
 - Add / Update / Delete Movies
 - Manage genres, directors, and movie details
 - Create and manage showtimes
@@ -22,6 +28,8 @@ QuickShow is a full-stack web application for booking movie tickets online. User
 - View all bookings and revenue stats
 - Manage seat layouts and availability
 - Admin authentication & validation
+
+---
 
 ## 🧰 Tech Stack
 
@@ -38,19 +46,25 @@ Backend:
 - MySQL / TiDB Cloud
 - REST APIs
 
+---
+
 ## 📁 Project Structure
 
 QuickShow/
-frontend/
-src/
-public/
-package.json
-backend/
-index.js
-routes/
-db/
-package.json
-README.md
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── index.js
+│   ├── routes/
+│   ├── db/
+│   └── package.json
+│
+└── README.md
+
+---
 
 ## ⚙️ Installation & Setup
 
@@ -64,14 +78,14 @@ npm install
 npm start
 
 Create .env:
-REACT_APP_API_URL=http://localhost:7000
+REACT_APP_API_URL=http://localhost:4000
 
 Backend Setup:
 cd backend
 npm install
 
 Create .env:
-PORT=7000
+PORT=4000
 DB_HOST=your_tidb_host
 DB_USER=your_username
 DB_PASSWORD=your_password
@@ -79,10 +93,12 @@ DB_NAME=your_database_name
 DB_PORT=4000
 DB_SSL=true
 
-Run backend:
+Run Backend:
 node index.js
 or
 npm run dev
+
+---
 
 ## 🌐 API Endpoints
 
@@ -111,16 +127,7 @@ POST /adminMovieAdd
 POST /genreInsert
 POST /directorInsert
 
-## 🗄️ Database Tables
-
-movie
-theatre
-hall
-showtimes
-seat
-ticket
-payment
-person
+---
 
 ## 📌 Future Improvements
 
@@ -130,15 +137,19 @@ Seat locking system
 Recommendation system
 Docker deployment
 
+---
+
 ## 👨‍💻 Author
 
-Anushka Adak
+Anushka Adak  
 GitHub: https://github.com/anushkaadak2684
+
+---
 
 ## ⭐ Support
 
-Star this repository
-Fork it
-Share it
+Star this repository  
+Fork this repository  
+Share this project
 
 
